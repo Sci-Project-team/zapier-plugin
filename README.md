@@ -206,29 +206,3 @@ Before deploying to production:
 3. **Error Handling**: Ensure robust error handling for production scenarios
 4. **Rate Limiting**: Implement appropriate rate limiting
 5. **Monitoring**: Set up logging and monitoring
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Run the test suite
-6. Submit a pull request
-
-## Support
-
-For issues related to:
-- **Zapier Integration**: Check Zapier platform documentation
-- **ESPing Gateway**: Contact your gateway service provider
-- **This Integration**: Open an issue in this repository
-
-## License
-
-[Add your license information here]
-
-## Resources
-
-- [Zapier Platform CLI Documentation](https://github.com/zapier/zapier-platform/blob/main/packages/cli/README.md)
-- [Zapier Integration Development Guide](https://zapier.com/developer/documentation/v2/)
-- [ESPing Gateway Documentation](https://example.com/docs) <!-- Update with actual docs -->
