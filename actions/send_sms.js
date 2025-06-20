@@ -1,6 +1,6 @@
 const sendSms = (z, bundle) => {
   return z.request({
-    url: 'https://2758-197-204-4-6.ngrok-free.app/sms',
+    url: 'https://8401-105-97-120-175.ngrok-free.app/sms',
     method: 'POST',
     headers: {
       'Authorization': `Bearer ${bundle.authData.access_token}`,

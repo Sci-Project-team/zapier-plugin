@@ -1,7 +1,7 @@
 const getAccessToken = (z, bundle) => {
   return z.request({
     method: 'POST',
-    url: 'https://2758-197-204-4-6.ngrok-free.app/auth/login',
+    url: 'https://8401-105-97-120-175.ngrok-free.app/auth/login',
     headers: {
       'Content-Type': 'application/x-www-form-urlencoded',
     },
@@ -32,7 +32,7 @@ module.exports = {
   ],
   sessionConfig: { perform: getAccessToken },
     test: {
-    url: 'https://2758-197-204-4-6.ngrok-free.app/',
+    url: 'https://8401-105-97-120-175.ngrok-free.app/',
     method: 'GET',
     headers: {
         Authorization: (bundle) => `Bearer ${bundle.authData.access_token}`,
